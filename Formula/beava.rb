@@ -1,28 +1,28 @@
 class Beava < Formula
   desc "Real-time feature server for fraud, ad-tech, and behavioral analytics"
   homepage "https://beava.dev"
-  version "0.0.4"
+  version "0.0.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/beava-dev/beava/releases/download/v#{version}/beava-macos-arm64.tar.gz"
-      sha256 "a9b6710e55827ce49ec2186e5bd381309b532e11e2b933b1df511f35c6135a6b"
+      sha256 "0c482a1027641c9718e860e9d2babf9f9a85c0910c6143d247d07a2d7ff9a0c2"
     end
     on_intel do
       url "https://github.com/beava-dev/beava/releases/download/v#{version}/beava-macos-x86_64.tar.gz"
-      sha256 "3b3e22ff70b0d1bf289c7fefee9395426cdb763aed23b3c160315a390cf7ec58"
+      sha256 "418861c0cb1d370e819a536fa19e07aea2fece9ae67382118d9ace22d9c89bd6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/beava-dev/beava/releases/download/v#{version}/beava-linux-arm64.tar.gz"
-      sha256 "46138f6fa725d6f35d7c6798b7cc2ab3e6882c7d3b7331157cd5be77df770ecd"
+      sha256 "f62736f761ab7aa5aeaae22b4a75757c0e45cb756602cbd5aa1eb7a9f0a9f233"
     end
     on_intel do
       url "https://github.com/beava-dev/beava/releases/download/v#{version}/beava-linux-x86_64.tar.gz"
-      sha256 "b5e4800c0653e0285075cc60f674cb8dae700b7ed060446961f5e374918d64b0"
+      sha256 "2e8b66a6b1cc9cf279d5a0366320cda7b48d35c942ecac230e38c170b2347776"
     end
   end
 
